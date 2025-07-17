@@ -1,0 +1,20 @@
+{
+  "name": "majorbuysell",
+  "version": "1.0.0",
+  "description": "A College App for selling and Buying Used Goods ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Swaraj Anand",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.2",
+    "multer": "^2.0.1"
+  }
+}
